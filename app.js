@@ -8,7 +8,4 @@
 //     return evens;
 //   }
 
-  function squareAndFindEvens(numbers){
-    var squares = numbers.map(num =>  num ** 2);
-    var evens = squares.filter(square => square % 2 === 0);
-    }
+ squareAndFindEvens = numbers => numbers.map(num =>  num ** 2).filter(square => square % 2 === 0);
